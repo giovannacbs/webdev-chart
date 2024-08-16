@@ -10,15 +10,12 @@ body {
 
 h1 {
     font-family: 'Anton';
-    font-size: 3vw;
+    font-size: 4vw;
+    color: #939343;
     text-align: center;
     margin: 1vw;
     padding: 0;
-}
-
-#grafico_area {
-    width: 80vw; 
-    height: 50vh; 
+    
 }
 
 svg {
@@ -30,6 +27,7 @@ svg {
 
 svg text {
     font-family: 'Montserrat', sans-serif;
+    font-size: medium; 
 }
 
 .axis path,
@@ -40,4 +38,8 @@ svg text {
 
 .tick line {
     display: none;
+}
+
+.tooltip {
+    pointer-events: none;  
 }
