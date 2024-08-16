@@ -1,1 +1,43 @@
+body {
+    background-color: #fffbf1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
 
+h1 {
+    font-family: 'Anton';
+    font-size: 3vw;
+    text-align: center;
+    margin: 1vw;
+    padding: 0;
+}
+
+#grafico_area {
+    width: 80vw; 
+    height: 50vh; 
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+
+svg text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.axis path,
+.axis line {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.tick line {
+    display: none;
+}
